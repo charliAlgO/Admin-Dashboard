@@ -1,0 +1,22 @@
+.header__logo{
+    width: 20vh;
+    height: 8vh;
+    pointer-events: none;
+    object-fit: contain;
+    background-color: azure;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+    .header__logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+@keyframes header__logo-spin{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+  
